@@ -71,7 +71,7 @@
             c.drawRightString(width - 3.32 * cm, linha - (li * ls), loja.moeda(aux.custo))
             c.drawRightString(width - 2.82 * cm, linha - (li * ls), str('23'))
             c.drawRightString(width - 1.07 * cm, linha - (li * ls), loja.moeda(aux.total()))
-        c.drawString(7 * cm, 3.15 * cm, "(c) Copyright 2019 Débora Veloso - TESTE DE IMPRESSÃO")
+        c.drawString(7 * cm, 3.15 * cm, "(c) Copyright  Débora Veloso 2019 - TESTE DE IMPRESSÃO")
         texto = c.beginText(10.8 * cm, height - 2.5 * cm)
         texto.setFont('Helvetica-Bold', 14)
         texto.textLine("Encomenda")
